@@ -19,11 +19,14 @@ Below you will find the Setup Files and Steps to setup your Dev Enviroment to wo
 # MySQL Query
 - [MySql Query](https://github.com/azerothcore/azerothcore-wotlk/blob/master/data/sql/create/create_mysql.sql)
 If you already have a root admin user simply run this Query Instead
-``CREATE DATABASE `acore_world` DEFAULT CHARACTER SET UTF8MB4 COLLATE utf8mb4_unicode_ci;
+
+```
+CREATE DATABASE `acore_world` DEFAULT CHARACTER SET UTF8MB4 COLLATE utf8mb4_unicode_ci;
 
 CREATE DATABASE `acore_characters` DEFAULT CHARACTER SET UTF8MB4 COLLATE utf8mb4_unicode_ci;
 
-CREATE DATABASE `acore_auth` DEFAULT CHARACTER SET UTF8MB4 COLLATE utf8mb4_unicode_ci;``
+CREATE DATABASE `acore_auth` DEFAULT CHARACTER SET UTF8MB4 COLLATE utf8mb4_unicode_ci;
+```
 
   
 
