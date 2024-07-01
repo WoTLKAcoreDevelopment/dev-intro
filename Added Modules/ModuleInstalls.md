@@ -10,4 +10,4 @@
 - [mod-weekendbonus](https://github.com/noisiver/mod-weekendbonus.git)
 
 # Debatable Installs
-[mod-transmog](https://github.com/WoTLKAcoreDevelopment/mod-transmog.git)
+- [mod-transmog](https://github.com/WoTLKAcoreDevelopment/mod-transmog.git)
