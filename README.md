@@ -2,7 +2,7 @@
 Below you will find the Setup Files and Steps to setup your Dev Enviroment to work with the Project
 
 
-# WoW-Client
+
 # Setup Download Links
 - [7-zip](https://www.7-zip.org/a/7z2405-x64.exe)
 - [Git Download](https://git-scm.com/download/win)
@@ -16,6 +16,9 @@ Below you will find the Setup Files and Steps to setup your Dev Enviroment to wo
 - [World of Warcraft WoTLK Client](https://mega.nz/file/5yl2GJCR#NL-IV8_cH_x8laEAdh0gsza124Cg8WKN6npm0yJKYQE)
 - [MPQ Editor](https://mega.nz/file/470zGAwa#zfYeFHMPuriF0gNbRsx2eprKktfxVOh8DEFdsZkYjDQ)
 - [Map Data](https://github.com/wowgaming/client-data/releases/)
+  
+# [Custom WoW Client](https://mega.nz/file/5yl2GJCR#NL-IV8_cH_x8laEAdh0gsza124Cg8WKN6npm0yJKYQE)
+
 # MySQL Query
 - [MySql Query](https://github.com/azerothcore/azerothcore-wotlk/blob/master/data/sql/create/create_mysql.sql)
 If you already have a root admin user simply run this Query Instead
