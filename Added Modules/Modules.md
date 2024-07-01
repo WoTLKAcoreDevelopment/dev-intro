@@ -14,9 +14,7 @@ In AzerothCore, modules are a way to extend and customize the functionality of t
 
 # CREATE A NEW AZEROTHCORE MODULE
 
-1) Read this page first:
-
-http://www.azerothcore.org/wiki/Create-a-Module
+1) [Read this page first](http://www.azerothcore.org/wiki/Create-a-Module)
 
 
 2) Run the script `create_module.sh`:
