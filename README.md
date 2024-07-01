@@ -15,7 +15,25 @@ Below you will find the Setup Files and Steps to setup your Dev Enviroment to wo
 - [Boost](https://sourceforge.net/projects/boost/files/boost-binaries/1.81.0/boost_1_81_0-msvc-14.3-64.exe/download)
 - [World of Warcraft WoTLK Client](https://mega.nz/file/5yl2GJCR#NL-IV8_cH_x8laEAdh0gsza124Cg8WKN6npm0yJKYQE)
 - [MPQ Editor](https://mega.nz/file/470zGAwa#zfYeFHMPuriF0gNbRsx2eprKktfxVOh8DEFdsZkYjDQ)
+- [Map Data](https://github.com/wowgaming/client-data/releases/)
+# MySQL Query
+- [MySql Query](https://github.com/azerothcore/azerothcore-wotlk/blob/master/data/sql/create/create_mysql.sql)
+If you already have a root admin user simply run this Query Instead
+- CREATE DATABASE `acore_world` DEFAULT CHARACTER SET UTF8MB4 COLLATE utf8mb4_unicode_ci;
+
+CREATE DATABASE `acore_characters` DEFAULT CHARACTER SET UTF8MB4 COLLATE utf8mb4_unicode_ci;
+
+CREATE DATABASE `acore_auth` DEFAULT CHARACTER SET UTF8MB4 COLLATE utf8mb4_unicode_ci;
+  
+
+# PATHS
+Environmental Variable Section:
+BOOST_ROOT           C:\local\boost_1_81_0
+
+Path:
+C:\Program Files\MySQL\MySQL Server 8.0\bin
 
 # Reference Links
 [YouTube_Link1](https://youtu.be/Y6EC5CqThWY)
 [YouTube_Link2](https://youtu.be/WNQBXRVTHg4)
+
