@@ -17,7 +17,8 @@ Below you will find the Setup Files and Steps to setup your Dev Enviroment to wo
 - [MPQ Editor](https://mega.nz/file/470zGAwa#zfYeFHMPuriF0gNbRsx2eprKktfxVOh8DEFdsZkYjDQ)
 - [Map Data](https://github.com/wowgaming/client-data/releases/)
   
-# [Custom WoW Client](https://mega.nz/file/5yl2GJCR#NL-IV8_cH_x8laEAdh0gsza124Cg8WKN6npm0yJKYQE)
+# [Custom WoW Launcher](https://mega.nz/file/5yl2GJCR#NL-IV8_cH_x8laEAdh0gsza124Cg8WKN6npm0yJKYQE)
+If you plan on working with us you will need the Custom Launcher that downloads Our Custom `World of Warcraft: Wrath of the Lich King` Client
 
 # MySQL Query
 - [MySql Query](https://github.com/azerothcore/azerothcore-wotlk/blob/master/data/sql/create/create_mysql.sql)
