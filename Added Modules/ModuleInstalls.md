@@ -8,3 +8,6 @@
 - [mod-learn-spells](https://github.com/WoTLKAcoreDevelopment/mod-learn-spells.git)
 - [mod-levelreward](https://github.com/WoTLKAcoreDevelopment/mod-levelreward.git)
 - [mod-weekendbonus](https://github.com/noisiver/mod-weekendbonus.git)
+
+# Debatable Installs
+[mod-transmog](https://github.com/WoTLKAcoreDevelopment/mod-transmog.git)
