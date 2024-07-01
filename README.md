@@ -44,6 +44,6 @@ Path
 ```C:\Program Files\MySQL\MySQL Server 8.0\bin```
 
 # Reference Links
-[YouTube_Link1](https://youtu.be/Y6EC5CqThWY)
-[YouTube_Link2](https://youtu.be/WNQBXRVTHg4)
+[YouTube1](https://youtu.be/Y6EC5CqThWY)
+[YouTubeLink2](https://youtu.be/WNQBXRVTHg4)
 
