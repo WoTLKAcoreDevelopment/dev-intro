@@ -31,11 +31,14 @@ CREATE DATABASE `acore_auth` DEFAULT CHARACTER SET UTF8MB4 COLLATE utf8mb4_unico
   
 
 # PATHS
-Environmental Variable Section:
+Environmental Variable Section
 
-```BOOST_ROOT```           ```C:\local\boost_1_81_0```
+```BOOST_ROOT```           
 
-Path:
+```C:\local\boost_1_81_0```
+
+Path
+
 ```C:\Program Files\MySQL\MySQL Server 8.0\bin```
 
 # Reference Links
