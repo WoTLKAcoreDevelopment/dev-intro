@@ -25,10 +25,10 @@ export const MenuItem = ({
   children?: React.ReactNode;
 }) => {
   return (
-    <div onMouseEnter={() => setActive(item)} className="relative ">
+    <div onMouseEnter={() => setActive(item)} className="relative">
       <motion.p
         transition={{ duration: 0.3 }}
-        className="inline-flex h-7 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 cursor-pointer"
+        className="cursor-pointer text-black hover:opacity-[0.9] dark:text-white font-bold"
       >
         {item}
       </motion.p>
@@ -70,7 +70,7 @@ export const Menu = ({
   return (
     <nav
       onMouseLeave={() => setActive(null)} // resets the state
-      className="relative  boder border-transparent dark:bg-black dark:border-white/[0.2] bg-white shadow-input flex justify-center space-x-4 px-8 py-6 "
+      className="relative rounded-full boder border-transparent dark:bg-black dark:border-white/[0.2] bg-white shadow-input flex justify-center space-x-4 px-8 py-6 "
     >
       {children}
     </nav>
@@ -81,15 +81,22 @@ export const ProductItem = ({
   title,
   description,
   href,
-
+  src,
 }: {
   title: string;
   description: string;
   href: string;
-
+  src: string;
 }) => {
   return (
-    <Link href={href} className="flex space-x-2 ">
+    <Link href={href} className="flex space-x-2">
+      <Image
+        src={src}
+        width={50}
+        height={25}
+        alt={title}
+        className="flex-shrink-0 rounded-md shadow-2xl"
+      />
       <div>
         <h4 className="text-xl font-bold mb-1 text-black dark:text-white">
           {title}

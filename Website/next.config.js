@@ -1,6 +1,6 @@
 // next.config.js
 module.exports = {
   images: {
-    domains: ['assets.aceternity.com'],
+    domains: ['assets.aceternity.com','i.pinimg.com'],
   },
 };
