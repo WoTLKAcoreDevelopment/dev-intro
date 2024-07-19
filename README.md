@@ -1,4 +1,4 @@
-# Welcome to the Draenor Project Powered by Azerothcore 🚀
+# Welcome to the Lich King Project Powered by Azerothcore 🚀
 Below you will find the Setup Files and Steps to setup your Dev Enviroment to work with the Project
 
 
