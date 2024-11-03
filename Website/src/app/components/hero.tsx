@@ -1,6 +1,6 @@
 'use client';
 import React, { useEffect, useState } from 'react';
-
+import heroImage from '../assets/carnage.png'
 const Heroe = () => {
     const [downloaded, setDownloaded] = useState(false);
 
@@ -33,17 +33,18 @@ const Heroe = () => {
 
     return (
         <div
-            className="h-screen bg-cover bg-center flex items-center justify-center"
-            style={{ backgroundImage: 'url(https://imgs.search.brave.com/S3LZo2wZ38-1xv7Db3CQBBsXdD8ccJfOE-I138g0avk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9ibmV0/Y21zdXMtYS5ha2Ft/YWloZC5uZXQvY21z/L2Jsb2dfaGVhZGVy/L2xuL0xOSjczSzhV/SVhXTzE2OTQ3MzE1/MTEzOTMucG5n)' }}
+            className="h-screen w-50  bg-cover bg-center flex items-center justify-center"
+            style={{backgroundImage: `url(${heroImage.src})`}}
         >
             {/* Use an anchor tag to initiate download */}
-            <a
+            {/*<a
                 href="#"
                 className="bg-white bg-opacity-100 p-10 rounded-lg shadow-lg text-center text-black text-4xl font-bold cursor-pointer"
                 onClick={handleDownload}
             >
-                Play Now
+                Download Launcher
             </a>
+            */}
         </div>
     );
 };

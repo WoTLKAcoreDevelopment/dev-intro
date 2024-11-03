@@ -1,6 +1,15 @@
 // next.config.js
 module.exports = {
   images: {
-    domains: ['assets.aceternity.com','i.pinimg.com'],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'assets.aceternity.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'i.pinimg.com',
+      },
+    ],
   },
 };

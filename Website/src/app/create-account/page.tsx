@@ -67,7 +67,7 @@ const RegisterAccount = () => {
                             name="username"
                             value={username}
                             onChange={(e) => setUsername(e.target.value)}
-                            className="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50 text-gray-800"
+                            className="mt-1 block w-full  border border-gray-300 rounded-md shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50 text-gray-800"
                             required
                         />
                     </div>
@@ -79,7 +79,7 @@ const RegisterAccount = () => {
                             name="password"
                             value={password}
                             onChange={(e) => setPassword(e.target.value)}
-                            className="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50 text-gray-800"
+                            className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50 text-gray-800"
                             required
                         />
                     </div>
@@ -91,14 +91,14 @@ const RegisterAccount = () => {
                             name="email"
                             value={email}
                             onChange={(e) => setEmail(e.target.value)}
-                            className="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50 text-gray-800"
+                            className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50 text-gray-800"
                             required
                         />
                     </div>
                     <div className="flex justify-end">
                         <button
                             type="submit"
-                            className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-6 rounded focus:outline-none focus:shadow-outline"
+                            className="bg-blue-500 border hover:bg-blue-600 text-white font-bold py-2 px-6 rounded focus:outline-none focus:shadow-outline"
                         >
                             Register
                         </button>
@@ -107,7 +107,7 @@ const RegisterAccount = () => {
                 {error && <p className="text-red-500 mt-2">Error: {error}</p>}
                 <p className="text-sm text-gray-600 mt-4">Already have an account?{' '}
                     <Link href="/signin">
-                        <button className="text-blue-500 hover:text-blue-700">Sign In</button>Sign In
+                        <button className="text-blue-500 hover:text-blue-700">Sign In</button>
                     </Link>
                 </p>
             </div>

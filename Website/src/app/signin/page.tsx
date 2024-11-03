@@ -13,7 +13,7 @@ const SignIn = () => {
             <input
               type="email"
               id="email"
-              className="px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
+              className="px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500 text-black"
               placeholder="Enter your email"
               required
             />
@@ -23,7 +23,7 @@ const SignIn = () => {
             <input
               type="password"
               id="password"
-              className="px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
+              className="px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500 text-black"
               placeholder="Enter your password"
               required
             />
