@@ -12,7 +12,7 @@ Below you will find the Setup Files and Steps to setup your Dev Enviroment to wo
 - [HeidelSql](https://www.heidisql.com/download.php)
 - [MySql](https://dev.mysql.com/downloads/windows/installer/8.0.html)
 - [Openssl](https://slproweb.com/products/Win32OpenSSL.html)
-- [Boost](https://sourceforge.net/projects/boost/files/boost-binaries/1.81.0/boost_1_81_0-msvc-14.3-64.exe/download)
+- [Boost]([https://sourceforge.net/projects/boost/files/boost-binaries/1.81.0/boost_1_81_0-msvc-14.3-64.exe/download](https://sourceforge.net/projects/boost/files/boost-binaries/1.81.0/boost_1_81_0-msvc-14.3-64.exe/download))
 - [World of Warcraft WoTLK Client](https://mega.nz/file/5yl2GJCR#NL-IV8_cH_x8laEAdh0gsza124Cg8WKN6npm0yJKYQE)
 - [MPQ Editor](https://mega.nz/file/470zGAwa#zfYeFHMPuriF0gNbRsx2eprKktfxVOh8DEFdsZkYjDQ)
 - [Map Data](https://github.com/wowgaming/client-data/releases/)
