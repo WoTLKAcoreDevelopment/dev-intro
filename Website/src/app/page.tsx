@@ -1,7 +1,8 @@
 
 import RegisterAccount from "./create-account/page";
 import Hero from "./components/hero";
-import GameList from "@/app/components/GameList";
+import Gamelist from "@/app/gamelist/page";
+
 
 export const dynamic = "force-dynamic";
 
@@ -10,7 +11,7 @@ export default function Home() {
     <div className="">
       <Hero/>
       <RegisterAccount/>
-      <GameList/>
+      <Gamelist/>
     </div>
   );
 }

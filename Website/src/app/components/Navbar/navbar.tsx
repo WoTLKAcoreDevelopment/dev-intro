@@ -38,8 +38,8 @@ function Navbar({ className }: { className?: string }) {
               <MenuItem setActive={setActive} active={active} item="SHOP">
                 <div className="flex flex-col space-y-2 text-sm font-bold">
                   <ProductItem
-                      title="WorldofWarcraft"
-                      href="/wowps/shop"
+                      title="World of Warcraft"
+                      href="/shop/world-of-warcraft"
                       src='https://i.pinimg.com/736x/c0/09/99/c00999f27e1b935420ce6c04622f6c62.jpg'
                       description="Look your best even when covered in Blood"
                   />
@@ -48,8 +48,8 @@ function Navbar({ className }: { className?: string }) {
               <MenuItem setActive={setActive} active={active} item="GAME LIST">
                 <div className="flex flex-col space-y-2 text-sm font-bold">
                   <ProductItem
-                      title="Game List"
-                      href="/transmog/shop"
+                      title="World of Warcraft"
+                      href="/gamelist/world-of-warcraft"
                       src='https://i.pinimg.com/736x/c0/09/99/c00999f27e1b935420ce6c04622f6c62.jpg'
                       description="Look your best even when covered in Blood"
                   />
