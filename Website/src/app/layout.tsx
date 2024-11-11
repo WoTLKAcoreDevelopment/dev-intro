@@ -30,7 +30,7 @@ export default function RootLayout({
         <html lang="en" className="h-full">
         <body className={`${inter.className} flex flex-col min-h-screen bg-gray-900 text-white`}>
         <Navbar />
-        <main className="flex-grow flex-col justify-center   py-15">
+        <main className="flex-grow flex-col justify-center  px-4 py-15 bg-gray-800">
             {children}
         </main>
         <footer className=" py-6 mt-auto">
